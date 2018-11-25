@@ -19,7 +19,31 @@ a:active {text-decoration: underline;}
 
 td {vertical-align:top; text-align:left; overflow:hidden;}
 </style>
+
+
 <body class="w3-light-grey">
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '210274199886393',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -45,6 +69,8 @@ td {vertical-align:top; text-align:left; overflow:hidden;}
           <div w3-include-html="html/program.html"></div>
           <hr>
           <div w3-include-html="html/billedarkiv.html"></div>
+          <hr>
+          
 
         </div>
       </div><br>
@@ -59,6 +85,17 @@ td {vertical-align:top; text-align:left; overflow:hidden;}
     
       <div w3-include-html="html/uge_29_ungdomscruise.html"></div>
       <div w3-include-html="html/vi_arbejder_på_sagen.html"></div> 
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <div class="w3-container">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-ship fa-fw w3-margin-right w3-xxlarge w3-text-red-uge29"></i>Uge 29 Ungdomscruise</h2>
+          <p>Er du til puls og vand i håret? Eller kage og øl i solen? </p>
+
+          <div class="fb-page" data-href="https://www.facebook.com/uge29ungdomscruise/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/uge29ungdomscruise/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/uge29ungdomscruise/">Uge 29 Ungdomscruise</a></blockquote></div>
+
+          <p style="padding-bottom: 8px"><a href="https://www.facebook.com/uge29ungdomscruise/">Læs mere og følg med i arrangementet på Facebook!</a></p>
+        </div>
+      </div>
 
     <!-- End Right Column -->
     </div>
