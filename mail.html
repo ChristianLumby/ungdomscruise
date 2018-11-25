@@ -27,34 +27,21 @@ td {vertical-align:top; text-align:left; overflow:hidden;}
   <!-- The Grid -->
   <div class="w3-row-padding">
 
-    <!-- Top Row -->
-    <div class="w3-white w3-text-grey w3-card" style="margin-bottom: 16px; margin-left: 8px; margin-right: 8px">
-      <img src="img/cover.jpg" style="width:100%" alt="uge29cover">
-    <!-- End Top Row -->
-    </div>
+  	<div w3-include-html="html/top_cover_photo_half.html"></div>
 
-  
 
     <!-- Left Column -->
     <div class="w3-third">
     
       <div class="w3-container w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="img/uge29logo.png" class="w3-padding-16" style="width:90%; display: block; margin-left:3%; padding-top:50px!important" alt="uge29logo">
+          <img src="img/uge29logo.png" class="w3-padding-16" style="width:90%; display: block; margin-left:3%; padding-top:50px!important; " alt="uge29logo">
         </div>
 
         <div class="w3-container">
 
-          <div w3-include-html="html/social_media_links.html"></div>
+          <div w3-include-html="html/social_media_links.html" style="padding-bottom:10px!important"></div>
           
-          <hr>
-
-          <div w3-include-html="html/program.html"></div>
-         
-          <hr>
-
-          <div w3-include-html="html/billedarkiv.html"></div>
-          <div w3-include-html="html/billedarkiv.html"></div>
 
         </div>
       </div><br>
@@ -63,12 +50,10 @@ td {vertical-align:top; text-align:left; overflow:hidden;}
     </div>
 
 
-
     <!-- Right Column -->
     <div class="w3-twothird">
     
-      <div w3-include-html="html/uge_29_ungdomscruise.html"></div>
-      <div w3-include-html="html/vi_arbejder_på_sagen.html"></div> 
+      <div w3-include-html="html/secret_mail.html"></div> 
 
     <!-- End Right Column -->
     </div>
@@ -80,13 +65,7 @@ td {vertical-align:top; text-align:left; overflow:hidden;}
 </div>
 
 
-
-<footer class="w3-container w3-center w3-padding-16 w3-text-white" style="background-image:url(img/pattern_small.png),linear-gradient(to bottom,#146fb4,#074c7d); margin-top: 32px!important;">
-  <div class="w3-display-container">
-    <a href="http://sejlsport.dk/"><img src="img/DS_LOGO_B_2FARVE_NEGATIV.png" class="w3-padding-16" style="width:200px; display: block; margin-left:auto; margin-right: auto" alt="uge29logo"></a>
-  </div>
-  <p>Arrangeret af Dansk Sejlunions Ungdomsnetværk</p>
-</footer>
+<div w3-include-html="html/footer.html"></div>
 
 
 <script>
