@@ -1,7 +1,7 @@
 .video-container {
 	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
+	padding-bottom:56.25%; /** 1080/1920 = 56.25%, use another value if padding is added... **/
+	padding-top:0px;
 	height:0;
 	overflow:hidden;
 }
