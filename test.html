@@ -30,10 +30,10 @@ function LoadFile() {
     alert("File " + oFrame.src + " has " + arrLines.length + " lines");
     for (var i = 0; i < arrLines.length; i++) {
         var curLine = arrLines[i];
-        alert("Line #" + (i + 1) + " is: '" + curLine + "'");
+        alert("Line #" + (i) + " is: '" + curLine + "'");
 		if (curLine=="test321"){
 			alert("link found!");
-			window.location.replace("https://www.w3schools.com");
+			window.location.replace(arrLines[i+1]);
 		}
     }
 }
