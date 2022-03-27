@@ -1,4 +1,4 @@
 test123
 test321
-www.google.dk
+https://www.google.com/
 testlast
