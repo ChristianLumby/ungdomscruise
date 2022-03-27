@@ -8,8 +8,10 @@
 <h3 style="text-align:center">Siden findes ikke</h3>
 
 
-<iframe id="frmFile" src="test.txt" onload="LoadFile();" style="display: none;"></iframe>
+<!-- Load custom_links.txt in an invisible iframe -->
+<iframe id="frmFile" src="custom_links.txt" onload="LoadFile();" style="display: none;"></iframe>
 
+<!-- Search iframe content for current page path and redirect if found -->
 <script>
 function LoadFile() {
     var oFrame = document.getElementById("frmFile");
