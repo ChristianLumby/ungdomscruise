@@ -28,10 +28,11 @@ function LoadFile() {
         strRawContents = strRawContents.replace("\r", "");
     var arrLines = strRawContents.split("\n");
     alert("File " + oFrame.src + " has " + arrLines.length + " lines");
+	var strPath = window.location.pathname;
     for (var i = 0; i < arrLines.length; i++) {
         var curLine = arrLines[i];
         alert("Line #" + (i) + " is: '" + curLine + "'");
-		if (curLine=="test321"){
+		if (curLine==strPath){
 			alert("link found!");
 			window.location.replace(arrLines[i+1]);
 		}
