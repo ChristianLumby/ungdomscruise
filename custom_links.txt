@@ -1,0 +1,9 @@
+// Dette er listen over custom redirect links
+// Skriv først det ønskede navn på linket (f.eks. xyz for stien ungdomscruise.dk/xyz)
+// efterfulgt af redirect link på den følgende linje
+
+dansksejlunion
+https://dansksejlunion.dk/
+
+facebook
+https://www.facebook.com/uge29ungdomscruise
