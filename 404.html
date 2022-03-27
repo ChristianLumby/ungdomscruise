@@ -4,11 +4,11 @@
 
 <p></br></p>
 
-<h2>Fejl #404</h2>
-<h3>Siden findes ikke</h3>
+<h2 style="text-align:center">Fejl #404</h2>
+<h3 style="text-align:center">Siden findes ikke</h3>
 
 
-<iframe id="frmFile" src="test.txt" onload="LoadFile();" display="none"></iframe>
+<iframe id="frmFile" src="test.txt" onload="LoadFile();" style="display: none;"></iframe>
 
 <script>
 function LoadFile() {
@@ -22,12 +22,12 @@ function LoadFile() {
     for (var i = 0; i < arrLines.length; i++) {
         var curLine = arrLines[i];
 		if (curLine==strPath){
-			alert("link found!");
 			window.location.replace(arrLines[i+1]);
 		}
     }
 }
 </script>
+
 
 </body>
 </html>
