@@ -8,20 +8,34 @@
 
 <p id="demo"></p>
 
+<p id="demoread"></p>
+
 <p></br></p>
 
+
 <iframe id="frmFile" src="test.txt" onload="LoadFile();"></iframe>
+
 
 <script>
 document.getElementById("demo").innerHTML = "Page path is: " + window.location.pathname;
 </script>
 
+
+
 <script>
 function LoadFile() {
-    var oFrame = document.getElementById("frmFile").contentWindow;
-	oFrame.document.getElementsByTagName("body")[0].style.backgroundColor = "blue";
+    var oFrame = document.getElementById("frmFile");
+    var strRawContents = oFrame.contentWindow.document.body.childNodes[0].innerHTML;
+    while (strRawContents.indexOf("\r") >= 0)
+        strRawContents = strRawContents.replace("\r", "");
+    var arrLines = strRawContents.split("\n");
+    for (var i = 0; i < arrLines.length; i++) {
+        var curLine = arrLines[i];
+		document.getElementById("demoread").innerHTML = curLine;
+    }
 }
 </script>
+
 
 
 </body>
