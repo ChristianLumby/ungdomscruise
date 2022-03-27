@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript</h2>
+
+<h3>The window.location object</h3>
+
+<p id="demo"></p>
+
+<p></br></p>
+
+<iframe id="frmFile" src="test.txt" onload="LoadFile();"></iframe>
+
+<script>
+document.getElementById("demo").innerHTML = "Page path is: " + window.location.pathname;
+</script>
+
+<script>
+function LoadFile() {
+    var oFrame = document.getElementById("frmFile").contentWindow;
+	oFrame.document.getElementsByTagName("body")[0].style.backgroundColor = "blue";
+}
+</script>
+
+
+</body>
+</html>
