@@ -29,6 +29,8 @@ function LoadFile() {
     var arrLines = strRawContents.split("\n");
     alert("File " + oFrame.src + " has " + arrLines.length + " lines");
 	var strPath = window.location.pathname;
+	strPath = strPath.substring(1);
+	alert("Looking for: " + strPath);
     for (var i = 0; i < arrLines.length; i++) {
         var curLine = arrLines[i];
         alert("Line #" + (i) + " is: '" + curLine + "'");
