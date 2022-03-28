@@ -8,10 +8,13 @@
 <h3 style="text-align:center">Siden findes ikke</h3>
 
 
+<!-- Use this 404 landing page to redict custom links-->
+
 <!-- Load custom_links.txt in an invisible iframe -->
 <iframe id="frmFile" src="custom_links.txt" onload="LoadFile();" style="display: none;"></iframe>
 
 <!-- Search iframe content for current page path and redirect if found -->
+<!-- https://stackoverflow.com/questions/4533018/how-to-read-a-text-file-from-server-using-javascript -->
 <script>
 function LoadFile() {
     var oFrame = document.getElementById("frmFile");
