@@ -5,6 +5,9 @@
 tilmeld
 https://sejlsport.wufoo.com/forms/uge-29-ungdomscruise-2022
 
+tilmeld-admin
+https://sejlsport.wufoo.com/reports/uge-29-ungdomscruise-2022-admin-gruppe/
+
 facebook
 https://www.facebook.com/uge29ungdomscruise
 
