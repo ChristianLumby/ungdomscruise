@@ -2,9 +2,11 @@
 // Skriv først det ønskede navn på linket (f.eks. xyz for stien ungdomscruise.dk/xyz)
 // efterfulgt af redirect link på den følgende linje
 
+tilmeld
+https://sejlsport.wufoo.com/forms/uge-29-ungdomscruise-2022
+
 facebook
 https://www.facebook.com/uge29ungdomscruise
 
 instagram
 https://www.instagram.com/uge29ungdomscruise/
-
